@@ -9,7 +9,7 @@
     "description": "Ubuntu Test server Egg",
     "features": null,
     "image": "dviih/ubuntu-gotty",
-    "startup": "${STARTUP_CMD}",
+    "startup": "${PORT_CMD}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"\",\r\n    \"userInteraction\": []\r\n}",
@@ -20,15 +20,15 @@
         "installation": {
             "script": null,
             "container": "alpine:3.4",
-            "entrypoint": "ash"
+            "entrypoint": "bash"
         }
     },
     "variables": [
         {
-            "name": "Startup Command",
-            "description": "The startup command for your bot to use",
-            "env_variable": "STARTUP_CMD",
-            "default_value": "bash",
+            "name": "Port",
+            "description": "The Port for the server to use",
+            "env_variable": "PORT_CMD",
+            "default_value": "CHANGETHIS",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required"
