@@ -4,8 +4,8 @@
         "version": "PTDL_v1"
     },
     "exported_at": "2020-11-16T00:26:44-05:00",
-    "name": "AIO",
-    "author": "dan@danbot.host",
+    "name": "Ubuntu Server",
+    "author": "james@jamesyourmom.com",
     "description": "Ubuntu Test server Egg",
     "features": null,
     "image": "dviih/ubuntu-gotty",
